@@ -598,7 +598,7 @@ void VulkanEngine::run()
 
         // imgui new frame
         ImGui_ImplVulkan_NewFrame();
-        ImGui_ImplSDL2_NewFrame(_window);
+        ImGui_ImplSDL2_NewFrame();
 
         ImGui::NewFrame();
 
@@ -1079,6 +1079,11 @@ void VulkanEngine::init_sync_structures()
             vkDestroySemaphore(_device, _frames[i]._renderSemaphore, nullptr);
         });
     }
+}
+
+void VulkanEngine::init_renderables()
+{
+
 }
 
 void VulkanEngine::init_imgui()

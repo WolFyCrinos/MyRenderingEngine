@@ -28,7 +28,6 @@ target_link_libraries(${PROJECT_NAME} PRIVATE fastgltf)
 
 # STB #
 target_include_directories(${PROJECT_NAME} PRIVATE ./external/stb_image)
-target_link_libraries(${PROJECT_NAME} PRIVATE stb)
 
 # Vulkan #
 find_package(Vulkan REQUIRED)
