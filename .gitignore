@@ -1,0 +1,8 @@
+# CMake Build folder #
+cmake-build-debug/*
+
+# Idea temp folder #
+.idea/*
+
+# VS temp folder #
+.vs/*
