@@ -1,3 +1,19 @@
 [submodule "external/glfw"]
 	path = external/glfw
 	url = https://github.com/glfw/glfw.git
+[submodule "external/fmt"]
+	path = external/fmt
+	url = https://github.com/fmtlib/fmt.git
+[submodule "external/imgui"]
+    path = external/imgui
+    url = https://github.com/ocornut/imgui.git
+    branch = docking
+[submodule "external/fastgltf"]
+    path = external/fastgltf
+    url = https://github.com/spnda/fastgltf.git
+[submodule "external/stb_image"]
+	path = external/stb_image
+	url = https://github.com/nothings/stb.git
+[submodule "external/vkbootstrap"]
+	path = external/vkbootstrap
+	url = https://github.com/charles-lunarg/vk-bootstrap.git

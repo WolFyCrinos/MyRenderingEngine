@@ -1,8 +1,7 @@
-#include "MyRenderingEngine.h"
-#include "Application.h"
+#include <vk_engine.h>
 
-int main() {
-    const auto app =new MyRenderingEngine::Application;
+int main(int argc, char* argv[]) {
+    /*const auto app = new MyRenderingEngine::Application;
 
     try {
         app->Run();
@@ -15,6 +14,16 @@ int main() {
     }
 
     delete app;
+
+    return EXIT_SUCCESS;*/
+
+    VulkanEngine engine;
+
+    engine.init();
+
+    engine.run();
+
+    engine.cleanup();
 
     return EXIT_SUCCESS;
 }
